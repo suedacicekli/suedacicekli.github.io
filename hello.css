@@ -145,8 +145,9 @@ ul.about-content{
 }
 
 .about-content li{
-    padding: 20px;
+    padding: 40px;
     height: 290px;
+    
     background-clip: content-box;
     -webkit-background-size: cover;
     background-size: cover;
@@ -178,7 +179,7 @@ a.about-rigth{
     margin-bottom: 5%;
 }
 
-/************** İLETİŞİM ************/
+/************** About ************/
 .kutucuk{
     font-size: 25px ;
     color: black;
@@ -193,13 +194,13 @@ a.about-rigth{
 
 .box{
     width: 450px;
-    background: rgba(129, 112, 56, 0.651);
+    background: rgba(255, 253, 253, 0.521);
     padding: 40px;
     text-align: center;
     margin: auto;
     margin-top: 15%;
-    
-    color: rgb(252, 246, 236);
+    border-radius: 15%;
+    color: rgb(70, 56, 33);
     font-family: poppins;
 }
 
@@ -242,15 +243,58 @@ ul{
 
 }
 .box li a{
-    color: rgb(240, 240, 255);
+    color: rgb(163,186,77);
     font-size: 40px;
     transition: all ease-in-out 250ms;
 }
 
+/************** About ************/
+
+section {
+    text-align: right;
+}
+
+article {
+   text-align: center;
+
+}
+
+article table {
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
 
 
+table tr th img {
+    width:300px ;
+    height: 300px ;
+    
+}
 
+.product-area {
+    max-width: 800px;
+    margin-bottom: 35px;
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 0;
+    justify-content: center;
+    flex-wrap: wrap;
 
+}
 
+.asdasd li{
+    margin: 0 25px;
+}
 
+.icon-social  {
+    justify-content: center;
+    
 
+}
